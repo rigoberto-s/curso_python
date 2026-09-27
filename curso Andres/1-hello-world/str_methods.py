@@ -47,3 +47,19 @@ parraf = 'c#'
 mix = 'java jdk 17'
 
 print(number.isnumeric())
+print(decimal.isdecimal)
+print(parraf.isalnum)
+print(mix.isalpha)
+
+print('------------------------------------------')
+
+parraf = '             hola como estas es un guysto conocerte                  '
+
+text_clean = parraf.strip().capitalize().title()
+print(text_clean)
+
+new_text = text_clean.replace('guysto','gusto')
+print(new_text)
+
+words = new_text.split()
+print(words)
